@@ -3,7 +3,9 @@ module.exports = {
     content: ["./**/*.{html,js}"],
     theme: {
         extend: {
-            /* mettre personnalisation à ajouter ici */
+            fontFamily:{
+                sans: ['Inter', 'sans-serif']
+            }
         },
     },
     plugins: [],
